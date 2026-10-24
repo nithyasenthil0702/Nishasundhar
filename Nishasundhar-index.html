@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#650b18">
+<title>Nisha ♥ Sundhar | Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#650b18;--deep:#390711;--red:#861a2b;--gold:#d8b56b;--pale:#f5e4b4;--cream:#fff8e9;--ink:#2d1515;--serif:"Cormorant Garamond",Georgia,serif;--sans:"Manrope",Arial,sans-serif;--script:"Great Vibes",cursive}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans)}body.locked{overflow:hidden}a{color:inherit}button,input,textarea{font:inherit}
+.intro{position:fixed;inset:0;z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;color:var(--pale);background:radial-gradient(ellipse at center,#861a2b,var(--wine) 52%,var(--deep));transition:opacity .8s,visibility .8s}.intro:before,.intro:after{content:"";position:absolute;inset:16px;border:1px solid #d8b56b80;pointer-events:none}.intro:after{inset:24px;border-style:dotted}.intro.closed{opacity:0;visibility:hidden}.intro-ornament{font-size:3.5rem;color:var(--gold);animation:float 3s infinite}.eyebrow,.kicker{letter-spacing:.22em;font-size:.68rem;font-weight:700}.intro h1{font:400 clamp(3.4rem,10vw,7rem)/1.05 var(--script);margin:12px 0}.intro h1 span{font:.55em var(--serif);color:var(--gold)}.intro-date{letter-spacing:.3em;margin:16px 0 32px;font-size:.8rem}
+.gold-btn{border:1px solid var(--gold);border-radius:2px;background:linear-gradient(135deg,#f3d991,#c69b48);color:#4a0a13;padding:14px 24px;font-weight:800;cursor:pointer;box-shadow:0 8px 24px #0002;transition:transform .25s}.gold-btn:hover{transform:translateY(-3px)}
+header{height:76px;padding:0 clamp(20px,6vw,84px);display:flex;align-items:center;justify-content:space-between;background:var(--deep);color:var(--pale);position:sticky;top:0;z-index:10;border-bottom:1px solid #d8b56b66}.brand,.monogram{font:600 1.8rem var(--serif);text-decoration:none;letter-spacing:.05em}.brand span,.monogram span{color:var(--gold);font-size:.72em}.nav{display:flex;gap:clamp(16px,3vw,36px);align-items:center}.nav a{font-size:.75rem;text-decoration:none;color:#f9e9c5}.nav a:hover{color:white}.nav .nav-cta{border:1px solid var(--gold);padding:10px 14px}.menu{display:none;background:transparent;color:var(--pale);border:0;font-size:1.6rem}
+section{padding:100px 24px;text-align:center}.hero{min-height:690px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;color:var(--pale);background:radial-gradient(ellipse at 50% 35%,#8e1c2d,var(--wine) 46%,var(--deep))}.hero:before{content:"";position:absolute;width:min(78vw,720px);aspect-ratio:1;border:1px solid #d8b56b38;border-radius:50%;box-shadow:0 0 0 18px #d8b56b0a,0 0 0 55px #d8b56b08,0 0 0 90px #d8b56b05}.frame{position:relative;width:min(820px,100%);padding:60px 25px;border:1px solid #d8b56b80;outline:1px solid #d8b56b35;outline-offset:9px}.corner{position:absolute;color:var(--gold);font-size:1.3rem}.tl{top:12px;left:14px}.tr{top:12px;right:14px}.bl{bottom:12px;left:14px}.br{bottom:12px;right:14px}.mandala{color:#d8b56b60;font-size:4rem;margin:18px 0 0;animation:spin 32s linear infinite}.names{display:flex;flex-direction:column;align-items:center;margin:0;font:400 clamp(4.8rem,12vw,8.5rem)/.85 var(--script);color:#fff2cc;text-shadow:0 4px 22px #22000766}.names i{font:400 1.9rem var(--serif);color:var(--gold);padding:16px 0}.hero-copy{font:italic 1.2rem var(--serif);margin:28px 0 20px}.line{display:flex;justify-content:center;align-items:center;gap:12px;color:var(--gold)}.line:before,.line:after{content:"";width:62px;height:1px;background:var(--gold)}.date-line{font-size:.7rem;letter-spacing:.2em;margin-top:20px}.date-line b{color:var(--gold);padding:0 7px}.scroll{display:inline-flex;margin-top:22px;width:34px;height:34px;align-items:center;justify-content:center;border:1px solid #d8b56b90;border-radius:50%;text-decoration:none;animation:bob 1.7s infinite}.side-note{position:absolute;right:18px;bottom:24px;writing-mode:vertical-rl;font-size:.55rem;letter-spacing:.25em;opacity:.65}
+.kicker{color:#9b762d}.title{font:500 clamp(2.5rem,5vw,4.2rem)/1.05 var(--serif);color:var(--wine);margin:18px auto 20px}.title em{font:400 1.2em var(--script);color:#ad8236}.copy{max-width:620px;margin:0 auto;line-height:1.9;font-size:.93rem;color:#6c5550}.flourish{margin:34px 0 14px;color:#b28a42;font-size:1.8rem}.signature{font:italic 1.2rem var(--serif);color:#806354}.signature span{display:block;font:400 2.5rem var(--script);color:var(--wine);margin-top:5px}
+.details{background:linear-gradient(140deg,var(--deep),#6b0e1d 60%,#4b0813);color:var(--pale);position:relative;overflow:hidden}.details:before{content:"❋";position:absolute;font-size:22rem;color:#d8b56b08;left:-90px;top:-80px}.details .title{color:var(--pale)}.subtitle{color:#e8d2b0;font:italic 1.15rem var(--serif);margin:-4px auto 34px}.countdown{display:flex;justify-content:center;gap:12px;margin:0 auto 55px}.countdown div{width:94px;padding:16px 8px;border:1px solid #d8b56b75;background:#ffffff06}.countdown strong{display:block;color:#f6dda0;font:500 2rem var(--serif)}.countdown span{display:block;font-size:.58rem;letter-spacing:.13em;text-transform:uppercase;margin-top:4px}.events{display:grid;grid-template-columns:repeat(2,minmax(0,340px));justify-content:center;gap:24px;position:relative}.event{padding:34px 24px 36px;background:var(--cream);color:var(--ink);border:1px solid var(--gold);outline:1px solid #d8b56b55;outline-offset:5px}.event-icon{font-size:2rem;color:#b58b3f}.event-label{color:#98712e;letter-spacing:.2em;font-size:.62rem;font-weight:800}.event h3,.venue-box h3{font:500 2.6rem var(--serif);color:var(--wine);margin:6px 0}.event-divider{color:#b58b3f;margin:13px 0}.event-time{font-weight:800;color:var(--wine);font-size:.9rem}.event-date{color:#806d61;font-size:.75rem}.event-place{color:#5e4a43;line-height:1.8;font-size:.82rem;margin-top:18px}
+.venue{background:#f6ead0;overflow:hidden}.venue-art{color:#c8a15b50;display:flex;justify-content:center;gap:24px;font-size:2rem;margin-bottom:22px}.venue-art span:nth-child(2){font-size:3rem;margin-top:-14px}.venue-box{max-width:700px;margin:40px auto 24px;padding:30px;border:1px solid #c6a35d;display:flex;align-items:center;justify-content:space-between;gap:20px;text-align:left;background:#fff9edaa}.venue-box h3{font-size:2rem}.venue-box p:not(.event-label){color:#6c5550;font-size:.85rem}.outline-btn{display:inline-block;border:1px solid #9b762d;color:var(--wine);background:transparent;padding:12px 16px;font-size:.72rem;font-weight:800;text-decoration:none;cursor:pointer;transition:background .2s,color .2s}.outline-btn:hover{background:var(--wine);color:var(--pale)}.temple-note{color:#6c5550;font-size:.8rem}.temple-note span{color:var(--wine);font-weight:800}
+.blessing{background:var(--wine);color:var(--pale);padding:88px 24px}.blessing-inner{max-width:720px;margin:auto;border:1px solid #d8b56b77;padding:42px 24px;outline:1px solid #d8b56b2b;outline-offset:8px}.blessing-symbol{font-size:2.4rem;color:var(--gold);margin-bottom:15px}.blessing .eyebrow{color:var(--gold)}.blessing h2{font:500 clamp(2.2rem,5vw,3.8rem)/1.15 var(--serif);margin:22px 0}.blessing h2 em{font:400 1.2em var(--script);color:var(--gold)}.blessing-inner>p:last-child{color:#e9d8bc;font:italic 1.1rem/1.7 var(--serif);max-width:500px;margin:auto}
+.footer{background:var(--deep);color:#e9d8bc;text-align:center;padding:40px 20px 30px;border-top:1px solid #d8b56b77}.footer p{font-size:.75rem}.footer-date{letter-spacing:.2em;color:var(--gold)}.back-top{color:var(--pale);font-size:.72rem;text-decoration:none;border-bottom:1px solid #d8b56b77;padding-bottom:4px}
+.petals{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:8}.petal{position:absolute;top:-30px;width:9px;height:13px;border-radius:80% 0 80% 0;background:linear-gradient(135deg,#f5d98c,#b68b3d);opacity:.65;animation:fall linear forwards}.reveal{opacity:0;transform:translateY(22px);transition:opacity .8s,transform .8s}.reveal.visible{opacity:1;transform:translateY(0)}
+@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(620deg);opacity:.05}}@keyframes float{50%{transform:translateY(-8px) rotate(8deg)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes bob{50%{transform:translateY(5px)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+@media(max-width:680px){header{height:66px}.menu{display:block}.nav{display:none;position:absolute;top:65px;left:0;right:0;padding:20px;flex-direction:column;background:var(--deep);border-bottom:1px solid #d8b56b77}.nav.open{display:flex}.hero{min-height:600px;padding:50px 24px}.frame{padding:50px 14px}.names{font-size:clamp(4.3rem,19vw,6rem)}.side-note{display:none}section{padding:76px 20px}.events{grid-template-columns:minmax(0,350px);gap:26px}.countdown{gap:7px}.countdown div{width:min(22vw,80px);padding:12px 4px}.countdown strong{font-size:1.6rem}.countdown span{font-size:.5rem;letter-spacing:.06em}.venue-box{flex-direction:column;align-items:flex-start;padding:24px}}
+
+/* Extra royal glow, shimmer and brighter animation polish */
+:root{--gold:#f3d37e;--pale:#fff0c7}
+.intro{background:radial-gradient(ellipse at 50% 35%,#c52b48 0%,#86162d 34%,#4b0715 68%,#21030a 100%)}
+.intro:before{border:2px solid #f5d88b;box-shadow:inset 0 0 35px #ffdc7b25,0 0 28px #ffcf6740}
+.intro:after{border-color:#ffe7a7aa;box-shadow:0 0 0 12px #e9bd5820,0 0 70px #ffd46c20}
+.intro h1,.couple-name{ text-shadow:0 0 12px #ffdf8c88,0 0 35px #ffbd5c55,0 8px 35px #e7c77c33}
+.open-button,.gold-btn,.gold-button{box-shadow:0 0 18px #f7d87c40,0 0 38px #f7d87c1f;position:relative;overflow:hidden}
+.open-button:after,.gold-btn:after,.gold-button:after{content:"";position:absolute;top:-60%;left:-80%;width:45%;height:220%;transform:rotate(22deg);background:linear-gradient(90deg,transparent,#ffffffa6,transparent);animation:buttonShimmer 4s ease-in-out infinite}
+@keyframes buttonShimmer{0%,55%{left:-80%}85%,100%{left:140%}}
+.hero{background:radial-gradient(ellipse at 50% 30%,#b82943 0%,#86182e 36%,#570b1c 68%,#26040b 100%)}
+.hero-frame{box-shadow:inset 0 0 65px #ffdc7b12,0 20px 100px #10000655,0 0 30px #f6d47c13;animation:frameGlow 5s ease-in-out infinite}
+@keyframes frameGlow{0%,100%{box-shadow:inset 0 0 65px #ffdc7b12,0 20px 100px #10000655,0 0 18px #f6d47c12}50%{box-shadow:inset 0 0 65px #ffdc7b22,0 20px 100px #10000655,0 0 40px #f6d47c2d}}
+.mandala,.blessing-symbol,.footer-flower{animation:ornamentPulse 3s ease-in-out infinite}
+@keyframes ornamentPulse{0%,100%{filter:drop-shadow(0 0 2px #f8d783)}50%{filter:drop-shadow(0 0 15px #ffdb76);transform:scale(1.07)}}
+.event,.event-card,.venue-box{transition:transform .35s ease,box-shadow .35s ease}
+.event:hover,.event-card:hover,.venue-box:hover{transform:translateY(-5px);box-shadow:0 20px 55px #5d0c1b24}
+.petal{width:11px;height:16px;filter:drop-shadow(0 0 5px #ffe39b);background:linear-gradient(135deg,#fff0b4,#e8b84f 48%,#a71934)}
+.petal:nth-child(3n){border-radius:50% 0 50% 0;background:linear-gradient(135deg,#fff1c9,#edc1a7,#be2742)}
+.venue-art span{filter:drop-shadow(0 0 12px #e7c77c);animation:floatOrnament 4s ease-in-out infinite}
+.venue-art span:nth-child(2){animation-delay:1s}.venue-art span:nth-child(3){animation-delay:2s}
+@keyframes floatOrnament{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-12px) rotate(5deg)}}
+.event-icon{filter:drop-shadow(0 0 10px #e6bf5c);animation:ornamentPulse 3s ease-in-out infinite}
+.nav a{transition:color .25s,text-shadow .25s}.nav a:hover{color:#ffe7a0;text-shadow:0 0 12px #ffda7a}
+.footer{background:radial-gradient(ellipse at 50% 0%,#9c1b35 0%,#4b0715 55%,#26040b 100%)}
+@media(prefers-reduced-motion:reduce){.hero-frame,.open-button:after,.gold-btn:after,.gold-button:after,.mandala,.blessing-symbol,.footer-flower,.venue-art span,.event-icon{animation:none!important}}
+
+</style>
+</head>
+<body class="locked">
+<div class="intro" id="intro">
+  <div class="intro-ornament">❧</div><p class="eyebrow">YOU ARE CORDIALLY INVITED TO</p>
+  <h1>Nisha <span>&</span> Sundhar</h1><p class="intro-date">01 · 11 · 2026</p>
+  <button class="gold-btn" id="openInvitation">Open Invitation ✦</button>
+</div>
+<div class="petals" id="petals" aria-hidden="true"></div>
+<header><a class="brand" href="#home">N <span>♥</span> S</a><button class="menu" id="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav class="nav" id="nav"><a href="#story">Our Story</a><a href="#details">The Celebration</a><a href="#venue">Venue</a></nav></header>
+<main>
+<section class="hero" id="home"><div class="frame">
+  <span class="corner tl">✦</span><span class="corner tr">✦</span><p class="eyebrow reveal">WITH THE BLESSINGS OF OUR FAMILIES</p><div class="mandala">❋</div>
+  <h1 class="names reveal"><span>Nisha</span><i>&</i><span>Sundhar</span></h1><p class="hero-copy reveal">Two hearts. One beautiful beginning.</p><div class="line"><span>◆</span></div>
+  <p class="date-line reveal">SUNDAY <b>·</b> 1 NOVEMBER 2026</p><a href="#details" class="scroll" aria-label="Scroll to details">↓</a><span class="corner bl">✦</span><span class="corner br">✦</span>
+</div><div class="side-note">A DAY TO REMEMBER · A LOVE TO CELEBRATE</div></section>
+<section id="story"><div class="kicker reveal">A NEW CHAPTER BEGINS</div><h2 class="title reveal">Together is a <em>beautiful</em> place to be.</h2><p class="copy reveal">With joyful hearts and the love of our families, we invite you to join us as we begin our forever. Your presence and blessings will make our special day even more meaningful.</p><div class="flourish reveal">❧ ❦ ❧</div><p class="signature reveal">With love,<span>Nisha & Sundhar</span></p></section>
+<section class="details" id="details"><div class="kicker reveal">SAVE THE DATE</div><h2 class="title reveal">The Celebration</h2><p class="subtitle reveal">A day filled with blessings, joy, and cherished memories.</p>
+<div class="countdown reveal" aria-label="Countdown to wedding"><div><strong id="days">--</strong><span>Days</span></div><div><strong id="hours">--</strong><span>Hours</span></div><div><strong id="minutes">--</strong><span>Minutes</span></div><div><strong id="seconds">--</strong><span>Seconds</span></div></div>
+<div class="events"><article class="event reveal"><div class="event-icon">❋</div><p class="event-label">THE WEDDING</p><h3>Muhurtham</h3><div class="event-divider">✦</div><p class="event-time">4:30 AM – 6:00 AM</p><p class="event-date">Sunday, 1 November 2026</p><p class="event-place">Arulmigu Sukasana Perumal Temple<br>Tittakudi</p></article>
+<article class="event reveal"><div class="event-icon">❀</div><p class="event-label">LET'S CELEBRATE</p><h3>Reception</h3><div class="event-divider">✦</div><p class="event-time">7:00 AM onwards</p><p class="event-date">Sunday, 1 November 2026</p><p class="event-place">Sornam Arumugam Thirumana Mahal<br>Vadhistapuram, Tittakudi</p></article></div></section>
+<section class="venue" id="venue"><div class="venue-art"><span>✺</span><span>❋</span><span>✺</span></div><div class="kicker reveal">JOIN US IN CELEBRATION</div><h2 class="title reveal">Find Your Way <em>to Us</em></h2><p class="copy reveal">We would be delighted to celebrate this special beginning with you. Come with your smiles and blessings.</p>
+<div class="venue-box reveal"><div><p class="event-label">RECEPTION VENUE</p><h3>Sornam Arumugam<br>Thirumana Mahal</h3><p>Vadhistapuram, Tittakudi</p></div><a class="outline-btn" href="https://www.google.com/maps/search/?api=1&query=Sornam+Arumugam+Thirumana+Mahal+Vadhistapuram+Tittakudi" target="_blank" rel="noopener noreferrer">Open in Maps ↗</a></div>
+<p class="temple-note reveal"><span>Wedding ceremony</span> · Arulmigu Sukasana Perumal Temple, Tittakudi</p></section>
+<section class="blessing"><div class="blessing-inner reveal"><div class="blessing-symbol">❦</div><p class="eyebrow">YOUR PRESENCE IS OUR PRESENT</p><h2>Come for the rituals.<br><em>Stay for the memories.</em></h2><p>We look forward to sharing laughter, love, and a beautiful new beginning with you.</p></div></section>
+
+</main>
+<footer class="footer"><div class="monogram">N <span>♥</span> S</div><p>Made with love for Nisha & Sundhar</p><p class="footer-date">01 · 11 · 2026</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+<script>
+// Invitation opening
+const openButton=document.getElementById("openInvitation");
+openButton.addEventListener("click",()=>{document.getElementById("intro").classList.add("closed");document.body.classList.remove("locked");createPetals(24)});
+// Mobile navigation
+const menu=document.getElementById("menu"),nav=document.getElementById("nav");
+menu.addEventListener("click",()=>{const opened=nav.classList.toggle("open");menu.setAttribute("aria-expanded",String(opened))});
+nav.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{nav.classList.remove("open");menu.setAttribute("aria-expanded","false")}));
+// Countdown to 1 November 2026, 4:30 AM India Standard Time
+const weddingDate=new Date("2026-11-01T04:30:00+05:30").getTime();
+function updateCountdown(){const left=weddingDate-Date.now();if(left<=0){["days","hours","minutes","seconds"].forEach(id=>document.getElementById(id).textContent="00");return}
+document.getElementById("days").textContent=String(Math.floor(left/86400000)).padStart(2,"0");
+document.getElementById("hours").textContent=String(Math.floor(left%86400000/3600000)).padStart(2,"0");
+document.getElementById("minutes").textContent=String(Math.floor(left%3600000/60000)).padStart(2,"0");
+document.getElementById("seconds").textContent=String(Math.floor(left%60000/1000)).padStart(2,"0")}
+updateCountdown();setInterval(updateCountdown,1000);
+// Reveal elements when they scroll into view
+if("IntersectionObserver" in window){const observer=new IntersectionObserver((entries,obs)=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("visible");obs.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll(".reveal").forEach(el=>observer.observe(el))}else{document.querySelectorAll(".reveal").forEach(el=>el.classList.add("visible"))}
+// Decorative falling gold petals
+const petalLayer=document.getElementById("petals");
+function createPetals(amount=10){for(let i=0;i<amount;i++){const p=document.createElement("span");p.className="petal";p.style.left=Math.random()*100+"%";p.style.setProperty("--drift",(Math.random()*180-90)+"px");p.style.animationDuration=(6+Math.random()*7)+"s";p.style.animationDelay=Math.random()*2+"s";petalLayer.appendChild(p);p.addEventListener("animationend",()=>p.remove())}}
+setInterval(()=>{if(!document.hidden&&!matchMedia("(prefers-reduced-motion: reduce)").matches)createPetals(2)},1800);
+</script>
+</body>
+</html>
